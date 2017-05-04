@@ -4,7 +4,7 @@ if ( GRLIB_isAtlasPresent ) then {
 
 	_lhd_x = 6;
 	_lhd_y = -16;
-	_lhd_z = 16.5;
+	_lhd_z = 23.5;
 	_spread = 6;
 
 	_lhd_z = _lhd_z + (getposasl lhd select 2);

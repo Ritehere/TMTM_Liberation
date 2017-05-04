@@ -276,6 +276,9 @@ static_vehicles_extension = [
     ["CUP_B_TOW_TriPod_US",0,30,0],
     ["CUP_B_M2StaticMG_US",0,5,0],
     ["CUP_B_M119_US",0,200,0],
+    ["B_SAM_System_02_F",0,40,5],
+    ["B_SAM_System_01_F",0,40,5],
+    ["B_AAA_System_01_F",0,30,5],
     ["CUP_B_M2StaticMG_MiniTripod_US",0,5,0],
     ["CUP_B_DSHKM_ACR",0,5,0],
     ["CUP_B_AGS_ACR",0,20,0]
@@ -319,6 +322,9 @@ uavs = [
     "B_UAV_05_F",
     "CUP_B_AH6X_USA",
     "CUP_B_USMC_MQ9",
+    "B_SAM_System_02_F",
+    "B_SAM_System_01_F",
+    "B_AAA_System_01_F",
     "UAV_Drakon"
 ];
 

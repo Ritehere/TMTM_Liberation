@@ -28,11 +28,11 @@ if ( count GRLIB_all_fobs == 0 ) then {
 	} else {
 		while { count GRLIB_all_fobs == 0 } do {
 
-			if ( !GRLIB_isAtlasPresent ) then {
+			if ( GRLIB_isAtlasPresent ) then {
 				_fobbox = FOB_box_typename createVehicle [0,0,50];
 				_fobbox enableSimulationGlobal false;
 				_fobbox allowDamage false;
-				_fobbox setposasl [(getpos lhd select 0) + 10, (getpos lhd select 1) + 62, (18.5   + (getposasl lhd select 2))];
+				_fobbox setposasl (getPosASL base_boxspawn);
 				clearItemCargoGlobal _fobbox;
 				_fobbox setDir 130;
 				sleep 1;
@@ -40,7 +40,6 @@ if ( count GRLIB_all_fobs == 0 ) then {
 				_fobbox allowDamage true;
 			} else {
 				_fobbox = FOB_box_typename createVehicle (getposASL base_boxspawn);
-				_fobbox setpos (getposASL base_boxspawn);
 				_fobbox setdir 215;
 			};
 

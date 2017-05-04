@@ -19,9 +19,9 @@ waitUntil { cinematic_camera_stop };
 
 _basenamestr = "";
 if ( GRLIB_isAtlasPresent ) then {
-	_basenamestr = "USS Khe Sahn";
+	_basenamestr = "USS Freedom";
 } else {
-	_basenamestr = "BASE CHIMERA";
+	_basenamestr = "USS Freedom";
 };
 
 while { true } do {
@@ -113,7 +113,7 @@ while { true } do {
 			_enddist = 120;
 			_alti = 35;
 			if ( dialog ) then {
-				if (((choiceslist select (lbCurSel 201)) select 0) == "BLUFOR LHD") then {
+				if (((choiceslist select (lbCurSel 201)) select 0) == "USS Freedom") then {
 					_startdist = 200;
 					_enddist = 300;
 					_alti = 30;
