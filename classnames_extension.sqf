@@ -175,6 +175,10 @@ air_vehicles_extension = [
     ["rhsusf_f22",0,350,40],
     ["rhsusf_CH53E_USMC",0,0,25],
     ["B_T_VTOL_01_armed_F",0,350,40],
+    ["B_UAV_05_F",0,200,20],
+    ["B_Plane_Fighter_01_F",0,350,30],
+    ["B_Plane_Fighter_01_Stealth_F",0,200,30],
+    ["I_Plane_Fighter_04_F",0,250,20],
     ["B_T_VTOL_01_infantry_F",0,0,30],
     ["B_T_VTOL_01_vehicle_F",0,0,35],
 	["greuh_eh101_gr",0,0,25],
@@ -312,6 +316,7 @@ support_vehicles_extension = [
 // All the UAVs must be declared here, otherwise there shall be UAV controlling issues. Namely: you won't be able to control them.
 uavs = [
     "B_T_UAV_03_F",
+    "B_UAV_05_F",
     "CUP_B_AH6X_USA",
     "CUP_B_USMC_MQ9",
     "UAV_Drakon"
@@ -441,6 +446,8 @@ opfor_choppers_extension = [
 // Opfor military aircrafts
 opfor_air_overwrite = false;
 opfor_air_extension = [
+"O_Plane_Fighter_02_F",
+"O_Plane_Fighter_02_Stealth_F"
 ];
 
 
