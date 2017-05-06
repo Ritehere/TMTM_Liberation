@@ -1,6 +1,5 @@
 enableSaving [ false, false ];
-//IMPORTANT DO NOT REMOVE!!
-[] call { hint "daddy be nimble, daddy be quick"; };
+
 [] call compileFinal preprocessFileLineNumbers "scripts\shared\atlas_manager.sqf";
 [] call compileFinal preprocessFileLineNUmbers "scripts\shared\liberation_functions.sqf";
 [] call compileFinal preprocessFileLineNUmbers "scripts\shared\init_sectors.sqf";
